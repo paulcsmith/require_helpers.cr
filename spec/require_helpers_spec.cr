@@ -1,9 +1,6 @@
 require "./spec_helper"
 
-describe RequireHelpers do
-  # TODO: Write tests
-
-  it "works" do
-    false.should eq(true)
-  end
-end
+# Use all the macros to make sure they don't raise an exception
+require_wd "spec/spec_helper"
+require_spec "spec_helper"
+require_src "require_helpers"
