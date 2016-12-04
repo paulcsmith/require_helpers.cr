@@ -3,11 +3,15 @@
 Requiring with relative paths is brittle and often hard to read. Rather than
 typing this:
 
-    require "../../my/file"
+```crystal
+require "../../my/file"
+```
 
 You can do this
 
-    require_src "my/file"
+```crystal
+require_src "my/file"
+```
 
 ## Installation
 
@@ -20,9 +24,7 @@ dependencies:
     github: paulcsmith/require_helpers.cr
 ```
 
-
 ## Usage
-
 
 Add this to your project to require the helper macros.
 
